@@ -11,5 +11,5 @@
     <view >{{item.btime}}</view>
   </view>
 
- <view wx:for='{{businfo}}' wx:key='{{index}}'>{{bname}}</view>
+ <view >{{bname}}</view>
     <view >{{btime}}</view>

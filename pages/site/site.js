@@ -27,8 +27,8 @@ Page({
             console.log('qizuoyongle')
             that.setData({
               visible:false,
-            
-            
+              bname: businfo[i].bname,
+              btime: businfo[i].btime
             })
              console.log(businfo[i].bname) //打印出来bus_name
              console.log(businfo[i].btime)
