@@ -1,0 +1,11 @@
+<!--pages/transfer/transfer.wxml-->
+<form>
+<view class='row' style='display:flex'>
+<view >
+<input  class='input' name='start' confirm-type='search' placeholder='输入起点'></input>
+<input  class='input' name='end' confirm-type='search' placeholder='输入终点'></input>
+</view>
+<image src='../../image/exchange.png' mode='aspectFit' class='exchange'></image>
+</view>
+<button class='look'>查询</button>
+</form>

@@ -1,0 +1,11 @@
+/* pages/site/site.wxss */
+.input{
+  margin-top: 20px;
+  background-color: #fff;
+  height: 35px;
+  font-size: 14px;
+  padding-left: 15px;
+}
+page{
+  background-color: #eee;
+}

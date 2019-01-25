@@ -1,0 +1,15 @@
+<!--pages/site/site.wxml-->
+<form>
+  <view>
+    <input class='input' name='input' confirm-type='search' placeholder='输入线路名称' bindconfirm='search'></input>
+  </view>
+
+</form>
+
+  <view wx:for='{{businfo}}' wx:key='{{index}}'>
+ <view >{{item.bname}}</view>
+    <view >{{item.btime}}</view>
+  </view>
+
+ <view wx:for='{{businfo}}' wx:key='{{index}}'>{{bname}}</view>
+    <view >{{btime}}</view>

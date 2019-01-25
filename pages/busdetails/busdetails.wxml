@@ -1,0 +1,13 @@
+<!--pages/busdetails/busdetails.wxml-->
+<view>
+  <block wx:for='{{businfo}}' wx:key=''>
+    <view class='bus_name'>
+      <text>线路名称</text>
+      <text>{{item.bus_name}}</text>
+    </view>
+    <view class='bus_time'>
+      <text>运行时间</text>
+      <text>{{item.bus_time}}</text>
+    </view>
+  </block>
+</view>

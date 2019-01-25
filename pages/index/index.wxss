@@ -1,0 +1,33 @@
+/* pages/index/index.wxss */
+page{
+  background-color: #eee;
+}
+.v_input{
+  background-color: #fff;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.input{
+  height: 35px;
+  width: 80%;
+  font-size: 14px;
+  padding-left: 15px;
+}
+.clear_img{
+   height: 15px;
+    width: 15px;
+    margin: 10px;
+    
+   
+}
+.home_scroll-view{
+  width: 100%;
+  height: 385px;
+  background-color: #fff;
+  margin-top: 15px;
+  
+}
+.list{
+flex-direction:column;
+}

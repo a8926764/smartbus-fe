@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<form>
+<view class='v_input' style='display:flex'>
+<!-- 点击搜索框，显示匹配的数据 -->
+<!-- bindinput 输入时触发 -->
+<input  class='input' name='input' confirm-type='search' placeholder='输入站点号' bindinput='bindkeyinput' value='{{value_num}}'>
+</input> 
+<image src='../../image/clear.png'class='clear_img' mode='aspectFit' hidden='{{visible}}' bindtap='clear_input'></image>
+</view>
+</form>
+<scroll-view class='home_scroll-view'scroll-y='true'  hidden='{{visible}}'>
+<view style='display:flex' class='list' wx:for='{{busline}}' wx:key='{{index}}'>
+<text>{{item.carnumber}}</text>
+</view>
+</scroll-view>

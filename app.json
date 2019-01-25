@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/transfer/transfer",
+    "pages/logs/logs",
+    "pages/busdetails/busdetails",
+      "pages/site/site"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智慧公交查询系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "backgroundColor": "#ffffff",
+    "position": "top",
+    "selectedColor": "#20CEA6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "站点查询"
+      },
+      {
+        "pagePath": "pages/site/site",
+        "text": "线路查询"
+      },
+      {
+        "pagePath": "pages/transfer/transfer",
+        "text": "换乘查询"
+      }
+    ]
+  }
+}
